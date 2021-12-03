@@ -10,4 +10,22 @@ I'm trying to solve everything using interesting algorithms, bit bangers, and si
 highly optimized to tackle just the very specific problem at hand, rather than to come up with a
 general solution.
 
+## Running
+
+My input files are in `input` and should be fed into the program's stdin.
+For example, to run the challenge for day 2, type
+
+```
+cat input/day02.txt | cargo run day02
+```
+
+Starting from day 3, the individual challenges are further subdivided into part 1 and 2.
+The input stays the same, but the binary name is `dayXXpY`:
+
+```
+cat input/day03.txt | cargo run day03p1
+```
+
+## License
+
 Everything is released under the 2-Clause BSD License, which can be found in the `LICENSE` file.
